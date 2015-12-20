@@ -15,7 +15,7 @@ module Middleman
       }
 
       def after_configuration
-        app.set :edit_forge_id, options.forge
+        app.set :edit_forge_id, options.forge.downcase
         app.set :edit_forge_project, options.project
       end
 
