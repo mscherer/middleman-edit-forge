@@ -2,7 +2,6 @@
 
 `middleman-edit-forge` is an extension for the [Middleman](http://middlemanapp.com/) static site generator that permit to add
 a link to edit source code directly on some forges like GitHub, GitLab, or BitBucket.
- the use of the [Piwik](http://piwik.org/) web analytics platform.
 
 ## Installation
 
@@ -24,10 +23,12 @@ project is the project name, fully qualified (name/repo).
 ## Helper
 
 The extension adds 1 new helper to Middleman that provides the html code linking to
-the edition on the configured forge
+the edition on the configured forge:
 
 ```erb
 <%= insert_link_edit_forge %>
 ```
 
+## Supported forge
 
+For now, only GitLab and GitHub hosted services are supported.
