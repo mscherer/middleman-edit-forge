@@ -3,6 +3,8 @@
 `middleman-edit-forge` is an extension for the [Middleman](http://middlemanapp.com/) static site generator that permit to add
 a link to edit source code directly on some forges like GitHub, GitLab, or BitBucket.
 
+[![Build Status](https://travis-ci.org/mscherer/middleman-edit-forge.svg?branch=master)](https://travis-ci.org/mscherer/middleman-edit-forge)
+
 ## Installation
 
 Just add `gem "middleman-edit-forge"` to your existing Gemfile and run `bundle install`.
