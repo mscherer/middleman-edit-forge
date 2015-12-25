@@ -33,6 +33,6 @@ the edition on the configured forge:
 
 ## Supported forges
 
-For now, only GitLab and GitHub hosted services are supported.
+For now, only GitLab, GitHub and Pagure.io hosted services are supported.
 
 If you want to add more, please see the hash FORGES in [extension.rb](blob/master/lib/middleman-edit-forge/extension.rb)

@@ -12,6 +12,10 @@ module Middleman
           'url'  => 'https://gitlab.com/%{project}/edit/master%{source_file}',
           'name' => 'GitLab',
         },
+        'pagure' => {
+          'url'  => 'https://pagure.io/%{project}/edit/master/f%{source_file}',
+          'name' => 'Pagure',
+        }
       }
 
       def after_configuration
